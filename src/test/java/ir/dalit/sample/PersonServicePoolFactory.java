@@ -1,4 +1,4 @@
-package ir.dalit.service;
+package ir.dalit.sample;
 
 import ir.dalit.pool.PoolFactory;
 

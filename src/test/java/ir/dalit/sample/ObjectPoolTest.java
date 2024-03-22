@@ -1,10 +1,10 @@
-package ir.dalit;
+package ir.dalit.sample;
 
 import ir.dalit.pool.ObjectPoolConfiguration;
 import ir.dalit.pool.ObjectPoolProvider;
 import ir.dalit.pool.PoolFactory;
-import ir.dalit.service.PersonService;
-import ir.dalit.service.PersonServicePoolFactory;
+import ir.dalit.sample.PersonService;
+import ir.dalit.sample.PersonServicePoolFactory;
 import org.junit.jupiter.api.Test;
 
 public class ObjectPoolTest {
