@@ -26,9 +26,7 @@ public class ObjectPool<T> {
     public void pleaseWait() {
         try {
             Thread.sleep(poolConfiguration.getProvidingInstanceWait());
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        } catch (InterruptedException ignore) {}
     }
 
     private void configure(int end) {
