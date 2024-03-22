@@ -1,7 +1,7 @@
 
 # Java Object Pool Sample
 
-A simple implement Object pool
+A simple implementation of Object pool
 
 ## Lessons Learned
 
